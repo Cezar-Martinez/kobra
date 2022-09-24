@@ -387,6 +387,7 @@ nav.show span.icon-close-877{
 .card .title{
     font-size: 1.5rem;
     margin-bottom: 0.75rem;
+    color: #222121;
 }
 
 /* ====== TESTIMONIALS ================================ */
@@ -580,6 +581,7 @@ nav.show span.icon-close-877{
         opacity: 1;
         visibility: visible;
         top: 0;
+        
     }
 
     nav .menu ul{
@@ -609,6 +611,7 @@ nav.show span.icon-close-877{
     
     #home .image{
         order: 1;
+        
     }
 
     #home .text{
@@ -676,6 +679,17 @@ nav.show span.icon-close-877{
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
     }
+}
+
+@media (max-width: 992px){
+
+
+#home .image{
+    padding-top: 100px;
+    padding-left: 40px;
+}
+
+
 }
 /* Medium devices: +767 >*/
 
@@ -752,39 +766,41 @@ footer div#redes-sociais {
     justify-content: space-evenly; /*para tomar maior distancia possivel*/
 }
 
-footer div#redes-sociais ion-icon {
+footer div#redes-sociais  ion-icon {
     color: #404040;
     height: 100%;
     width: 20%;
 
+    
+
 }
 
-footer div#redes-sociais ion-icon:hover {
+footer div#redes-sociais  ion-icon:hover {
     color: #32CD32;
     cursor: pointer;
 }
 
-footer div#redes-sociais ion-icon#instagram {
+footer div#redes-sociais  ion-icon#instagram {
     color: #db0589;
 }
 
-footer div#redes-sociais ion-icon#facebook {
+footer div#redes-sociais  ion-icon#facebook {
     color: #3b5998;
 }
 
-footer div#redes-sociais ion-icon#whatsapp {
+footer div#redes-sociais  ion-icon#whatsapp {
     color: #49db05;
 }
 
-footer div#redes-sociais ion-icon#instagram:hover {
+footer div#redes-sociais  ion-icon#instagram:hover {
     color: #32CD32;
 }
 
-footer div#redes-sociais ion-icon#facebook:hover {
+footer div#redes-sociais  ion-icon#facebook:hover {
     color: #32cd32;
 }
 
-footer div#redes-sociais ion-icon#whatsapp:hover {
+footer div#redes-sociais  ion-icon#whatsapp:hover {
     color: #d31414;
 }
 
