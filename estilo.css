@@ -674,26 +674,52 @@ nav.show span.icon-close-877{
 }
 /* Large devices: +1023 >*/
 /* Large devices: +992 >*/
-@media (min-width: 992px){
+@media (min-width: 767px){
     :root{
         --title-font-size: 2.25rem;
         --subtitle-font-size: 1.125rem;
     }
 }
 
-@media (max-width: 992px){
+@media (max-width: 767px){
 
 
-#home .image{
-    padding-top: 100px;
-    padding-left: 40px;
-}
+    #home .image{
+        padding-top: 100px;
+        padding-left: 40px;
+    }
 
-footer div#info ul {
-    margin-left: 30px;
-    margin-bottom: 20px;
+    footer div#info  {
+        background-color: #32CD32;
 
-}
+        
+ background-image: none;
+        height: inherit;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section #services {
+    background-color: #db0589;
+    }
+
+    footer {
+       
+        
+        
+    }
+
+    footer div#info div#redes-sociais {
+        display: none;
+       
+    }
+
+    footer div#mapa {
+         margin-right: 2px;
+    }
 
 }
 /* Medium devices: +767 >*/
